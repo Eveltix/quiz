@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='uk'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Geography Quiz</title>
+    <link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+    <div class="welcome screen active">
+        <h1>Географічне опитування</h1>
+        <button class = "start-quiz-btn btn">Розпочати</button>
+        <p> Швидше починай!</p>
+    </div>
+
+    <div class = "quiz screen">
+        <h1 class = "quiz__question">Скільки у світі є країн?</h1>
+        <div class = "quiz__answers">
+            <button class = "answer">274</button>
+            <button class = "answer">193</button>
+            <button class = "answer">80</button>
+            <button class = "answer">7</button>
+            <button class = "answer">195</button>
+        </div>
+        <p class = "quiz__message"> Давай відповідай! </p>
+        <div class = "timer">
+            10
+            </div>
+    </div>
+
+    <div class = "result screen">
+        <h1 class ="result__title">Вітаю, ти закінчив опитування і отримав 4 з 5</h1>
+        <button class = "restart-quiz-btn btn">Спробуй знову</button>
+        <p class = "result__message">Вау! Крутий результат!</p>
+    </div>
+
+    <script src = "./script.js"></script>
+</body>
+</html>
